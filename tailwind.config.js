@@ -10,7 +10,8 @@ export default {
         center: true,
       },
       fontFamily: {
-        'worksans':["Work Sans", "sans-serif"]
+        'worksans':["Work Sans", "sans-serif"],
+        'lato':["Lato", "sans-serif"]
       },
     },
   },
