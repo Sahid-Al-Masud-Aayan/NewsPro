@@ -35,7 +35,7 @@ function App() {
           </h1>
         {/* weather */}
         <div className="ml-[227px] flex justify-center items-center">
-          <img className='h-[30px] w-[30px]' src="./public/temp.svg" alt="Weather icon" />
+          <img className='h-[30px] w-[30px]' src="temp.svg" alt="Weather icon" />
           <h1 className='text-white text-[17px] font-worksans font-medium ml-[10px] mt-2 '>
           Dhaka 36°
           </h1>
@@ -44,7 +44,7 @@ function App() {
 
         {/* date */}
         <div className="ml-[19px] flex justify-center items-center">
-          <img className='h-[30px] w-[30px]' src="./public/date.svg" alt="calendar icon" />
+          <img className='h-[30px] w-[30px]' src="date.svg" alt="calendar icon" />
           <h1 className='text-white text-[17px] font-worksans font-medium ml-[6px] mt-2 '>
           Monday - July 2, 2021
           </h1>
@@ -58,11 +58,11 @@ function App() {
     {/* menubar */}
     <nav className='h-[150px] w-full bg-[#F1F4FF] flex justify-center items-center'>
       {/* logo */}
-      <img src="./public/Logo.svg" alt="Website Logo" />
+      <img src="Logo.svg" alt="Website Logo" />
       {/* logo */}
 
       {/* Ad */}
-      <div className="h-[80px] w-[560px] bg-[url('./public/ad1.png')] flex justify-center items-center bg-cover bg-center ml-[71px] rounded-[3px] mr-[21px]">
+      <div className="h-[80px] w-[560px] bg-[url('ad1.png')] flex justify-center items-center bg-cover bg-center ml-[71px] rounded-[3px] mr-[21px]">
       <h1 className='flex justify-center items-center gap-[10px] text-[29px] font-semibold relative text-white font-worksans'>
         Furniro
         <div className="w-[1px] h-[36px] bg-white mr-[12px]"></div>
@@ -94,7 +94,7 @@ function App() {
         <FaInstagram className="text-[30px] text-[#000D39] hover:text-[#E12127] duration-150"/>
         </a>
       </div>
-      <img className="ml-[33px]" src="./public/User.svg" alt="User image" />
+      <img className="ml-[33px]" src="User.svg" alt="User image" />
       {/* socials */}
     </nav>
     {/* menubar */}
@@ -150,9 +150,9 @@ function App() {
     <div className="container">
       <div className="flex justify-center items-center gap-[30px] mt-[70px] mb-[57px]">
         {/* first news */}
-    <a href="#" className="cursor-pointer hover:shadow-xl duration-200 w-[570px] h-[460px] bg-[url('./public/bn1.jpg')] bg-cover bg-center rounded-[3px] p-[30px] group">
+    <a href="#" className="cursor-pointer hover:shadow-xl duration-200 w-[570px] h-[460px] bg-[url('bn1.jpg')] bg-cover bg-center rounded-[3px] p-[30px] group">
     <div className="flex justify-between items-center">
-      <img src="./public/slid.svg" alt="Slider" />
+      <img src="slid.svg" alt="Slider" />
       <p className="text-[15px] font-semibold font-worksans text-white py-[3px] px-[11px] bg-[#e12127] rounded-[3px]">
         Fashion
         </p>
@@ -172,7 +172,7 @@ function App() {
         <div className=" flex justify-center items-center gap-[30px]">
 
         {/* second news */}
-          <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('./public/bn2.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+          <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('bn2.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[100px] font-semibold font-worksans text-white  bg-[#10D0FA] rounded-[3px]">
            Technology
@@ -190,7 +190,7 @@ function App() {
         {/* second news */}
 
         {/* third news */}
-          <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('./public/bn3.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+          <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('bn3.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white  bg-[#5200FF] rounded-[3px]">
            Travel
@@ -208,7 +208,7 @@ function App() {
         {/* third news */}
         </div>
         {/* fourth news */}
-        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[570px] bg-[url('./public/bn4.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[570px] bg-[url('bn4.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white  bg-[#FF005C] rounded-[3px]">
            Lifestyle
@@ -236,12 +236,12 @@ function App() {
         Todays Top News
         </p>
         <div className="w-[832px] h-[1px] bg-[#CFD4E4]"></div>
-        <img src="./public/slid2.svg" alt="Slider" />
+        <img src="slid2.svg" alt="Slider" />
       </div>
       {/* heading and slider */}
       <div className="flex justify-center items-center gap-[30px] mt-[31px]">
         {/* first news */}
-        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('./public/bn2.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('bn2.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[100px] font-semibold font-worksans text-white  bg-[#10D0FA] rounded-[3px]">
            Technology
@@ -259,7 +259,7 @@ function App() {
         {/* first news */}
 
         {/* second news */}
-        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('./public/bn5.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('bn5.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white bg-[#0085FF] rounded-[3px]">
            Politics
@@ -277,7 +277,7 @@ function App() {
         {/* second news */}
 
         {/* third news */}
-        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('./public/bn6.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('bn6.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[100px] font-semibold font-worksans text-white bg-[#FA1010] rounded-[3px]">
            Education
@@ -294,7 +294,7 @@ function App() {
           </a>
         {/* third news */}
         {/* fourth news */}
-        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('./public/bn3.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+        <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[215px] w-[270px] bg-[url('bn3.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white  bg-[#5200FF] rounded-[3px]">
            Travel
@@ -405,7 +405,7 @@ function App() {
       <div className="flex justify-center items-center gap-[30px]">
       <div className="flex flex-col justify-center items-start">
       {/* first news column */}
-      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[170px] w-[270px] bg-[url('./public/bn7.jpg')] bg-cover bg-center p-[20px] group rounded-[3px] mb-[23px]">
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[170px] w-[270px] bg-[url('bn7.jpg')] bg-cover bg-center p-[20px] group rounded-[3px] mb-[23px]">
            <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white bg-[#0085FF] rounded-[3px]">
            Politics
@@ -423,7 +423,7 @@ function App() {
       {/* first news column */}
 
       {/* second news column */}
-      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[170px] w-[270px] bg-[url('./public/bn8.jpg')] bg-cover bg-center p-[20px] group rounded-[3px] mb-[23px] mt-[33px]">
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[170px] w-[270px] bg-[url('bn8.jpg')] bg-cover bg-center p-[20px] group rounded-[3px] mb-[23px] mt-[33px]">
            <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white bg-[#E12127] rounded-[3px]">
            Fashion
@@ -442,7 +442,7 @@ function App() {
       </div>
       {/* third news */}
       <div className="flex flex-col gap-[30px]">
-      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[430px] w-[470px] bg-[url('./public/bn4.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[430px] w-[470px] bg-[url('bn4.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
            <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white bg-[#FF005C] rounded-[3px]">
            Lifestyle
@@ -468,7 +468,7 @@ function App() {
       </div>
       <div className="flex justify-center items-center">
       {/* Ad */}
-            <div className="h-[130px] w-[770px] bg-[url('./public/ad2.jpg')] flex justify-center items-center bg-cover bg-center rounded-[3px] mt-[70px] relative">
+            <div className="h-[130px] w-[770px] bg-[url('ad2.jpg')] flex justify-center items-center bg-cover bg-center rounded-[3px] mt-[70px] relative">
                 <RxCross2 className="absolute top-[10px] right-[10px] text-white opacity-[50%] hover:opacity-[100%]"/>
                 <GrCircleInformation className="absolute top-[10px] right-[36px] text-white opacity-[50%] hover:opacity-[100%]"/>
       <h1 className='flex justify-center items-center gap-[10px] text-[29px] relative text-white font-worksans'>
@@ -503,7 +503,7 @@ function App() {
       {/* heading and slider */}
       {/* first news */}
       <div className="flex justify-center items-center gap-[30px]">
-      <a href="#" className="cursor-pointer hover:shadow-xl duration-200 w-[470px] h-[490px] bg-[url('./public/bn1.jpg')] bg-cover bg-center rounded-[3px] p-[30px] group">
+      <a href="#" className="cursor-pointer hover:shadow-xl duration-200 w-[470px] h-[490px] bg-[url('bn1.jpg')] bg-cover bg-center rounded-[3px] p-[30px] group">
     <div className="flex justify-end items-center">
       <p className="flex justify-center items-center text-[15px] font-semibold font-worksans text-white h-[30px] w-[80px] bg-[#e12127] rounded-[3px]">
         Fashion
@@ -522,7 +522,7 @@ function App() {
 
       {/* second news */}
     <div className="flex flex-col justify-center items-center gap-[30px]">
-          <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[230px] w-[270px] bg-[url('./public/bn4.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+          <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[230px] w-[270px] bg-[url('bn4.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white  bg-[#FF005C] rounded-[3px]">
            Lifestyle
@@ -538,7 +538,7 @@ function App() {
           </a>
       {/* second news */}
       {/* third news */}
-          <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[230px] w-[270px] bg-[url('./public/bn9.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+          <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[230px] w-[270px] bg-[url('bn9.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white  bg-[#FF005C] rounded-[3px]">
            Lifestyle
@@ -657,7 +657,7 @@ function App() {
       {/* news */}
       <div className="flex justify-center items-center gap-[30px]">
         <a href="#" className="w-[270px] h-[328px] bg-white shadow-xl group">
-        <div className="  duration-200 h-[215px] w-full bg-[url('./public/bn2.jpg')] p-[20px] bg-cover bg-center rounded-[3px]">
+        <div className="  duration-200 h-[215px] w-full bg-[url('bn2.jpg')] p-[20px] bg-cover bg-center rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[100px] font-semibold font-worksans text-white  bg-[#10D0FA] rounded-[3px]">
            Technology
@@ -674,7 +674,7 @@ function App() {
          </p>
         </a>
         <a href="#" className="w-[270px] h-[328px] bg-white shadow-xl group">
-        <div className="  duration-200 h-[215px] w-full bg-[url('./public/bn13.jpg')] p-[20px] bg-cover bg-center rounded-[3px]">
+        <div className="  duration-200 h-[215px] w-full bg-[url('bn13.jpg')] p-[20px] bg-cover bg-center rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white  bg-[#07B404] rounded-[3px]">
            Sports
@@ -691,7 +691,7 @@ function App() {
          </p>
         </a>
         <a href="#" className="w-[270px] h-[328px] bg-white shadow-xl group">
-        <div className="  duration-200 h-[215px] w-full bg-[url('./public/bn5.jpg')] p-[20px] bg-cover bg-center rounded-[3px]">
+        <div className="  duration-200 h-[215px] w-full bg-[url('bn5.jpg')] p-[20px] bg-cover bg-center rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[100px] font-semibold font-worksans text-white  bg-[#818EFE] rounded-[3px]">
            Worlds
@@ -708,7 +708,7 @@ police investigation
          </p>
         </a>
         <a href="#" className="w-[270px] h-[328px] bg-white shadow-xl group">
-        <div className="  duration-200 h-[215px] w-full bg-[url('./public/bn3.jpg')] p-[20px] bg-cover bg-center rounded-[3px]">
+        <div className="  duration-200 h-[215px] w-full bg-[url('bn3.jpg')] p-[20px] bg-cover bg-center rounded-[3px]">
           <div className="flex justify-end items-center">
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white  bg-[#5200FF] rounded-[3px]">
            Travel
@@ -744,7 +744,7 @@ police investigation
        
       <div className="flex justify-center items-center gap-[30px]">
         <div className="flex flex-col justify-start items-start">
-    <a href="#" className="cursor-pointer hover:shadow-xl flex justify-center items-center duration-200 w-[670px] h-[460px] bg-[url('./public/bn1.jpg')] bg-cover bg-center rounded-[3px] p-[30px] group">
+    <a href="#" className="cursor-pointer hover:shadow-xl flex justify-center items-center duration-200 w-[670px] h-[460px] bg-[url('bn1.jpg')] bg-cover bg-center rounded-[3px] p-[30px] group">
     <IoPlayCircle className="text-[80px] text-white"/>
     </a>
     <div className="flex flex-col justify-start items-start ">
@@ -857,7 +857,7 @@ police investigation
     {/* videos */}
    {/* Ad */}
    <div className="flex justify-center items-center mt-[70px]">
-          <div className="h-[130px] w-[770px] bg-[url('./public/ad3.jpg')] flex justify-center items-center bg-cover bg-center rounded-[3px] relative">
+          <div className="h-[130px] w-[770px] bg-[url('ad3.jpg')] flex justify-center items-center bg-cover bg-center rounded-[3px] relative">
                 <RxCross2 className="absolute top-[10px] right-[10px] text-white opacity-[50%] hover:opacity-[100%]"/>
                 <GrCircleInformation className="absolute top-[10px] right-[36px] text-white opacity-[50%] hover:opacity-[100%]"/>
       <h1 className='flex justify-center items-center font-black gap-[10px] text-[29px] relative text-white font-worksans'>
@@ -1040,10 +1040,10 @@ police investigation
         Editor's Choice
         </p>
         <div className="w-[882px] h-[1px] bg-[#CFD4E4]"></div>
-        <img src="./public/slider3.svg" alt="Slider" />
+        <img src="slider3.svg" alt="Slider" />
       </div>
       <div className="flex justify-center items-center gap-[30px]">
-      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('./public/bn21.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('bn21.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
 
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white mt-[210px] mb-[21px] bg-[#E12127] rounded-[3px]">
            Fashion
@@ -1057,7 +1057,7 @@ police investigation
           Perfected for class
          </p>
           </a>
-      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('./public/bn22.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('bn22.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
 
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[100px] font-semibold font-worksans text-white mt-[210px] mb-[21px] bg-[#10CFFA] rounded-[3px]">
            Technology
@@ -1071,7 +1071,7 @@ police investigation
           Outages
          </p>
           </a>
-      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('./public/bn23.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('bn23.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
 
          <div className="flex justify-center items-center text-[15px] h-[30px] w-[70px] font-semibold font-worksans text-white mt-[210px] mb-[21px] bg-[#5200FF] rounded-[3px]">
            Travel
@@ -1204,7 +1204,7 @@ police investigation
         <div className="w-[230px] h-[1px] bg-[#CFD4E4]"></div>
       </div>
       <div className="flex flex-col justify-center items-center gap-[10px]">
-        <a className="w-[370px] h-[80px] bg-[url('./public/bn5.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <a className="w-[370px] h-[80px] bg-[url('bn5.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
         <div className="flex justify-center items-center gap-[161px]">
           <h3 className="text-[25px] text-white font-semibold font-worksans">
             Technology
@@ -1214,7 +1214,7 @@ police investigation
             </div>
         </div>
         </a>
-        <a className="w-[370px] h-[80px] bg-[url('./public/bn8.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <a className="w-[370px] h-[80px] bg-[url('bn8.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
         <div className="flex justify-center items-center gap-[205px]">
           <h3 className="text-[25px] text-white font-semibold font-worksans">
             Fashion
@@ -1224,7 +1224,7 @@ police investigation
             </div>
         </div>
         </a>
-        <a className="w-[370px] h-[80px] bg-[url('./public/bn3.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <a className="w-[370px] h-[80px] bg-[url('bn3.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
         <div className="flex justify-center items-center gap-[225px]">
           <h3 className="text-[25px] text-white font-semibold font-worksans">
             Travel
@@ -1234,7 +1234,7 @@ police investigation
             </div>
         </div>
         </a>
-        <a className="w-[370px] h-[80px] bg-[url('./public/bn4.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <a className="w-[370px] h-[80px] bg-[url('bn4.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
         <div className="flex justify-center items-center gap-[193px]">
           <h3 className="text-[25px] text-white font-semibold font-worksans">
             Lifestyle
@@ -1244,7 +1244,7 @@ police investigation
             </div>
         </div>
         </a>
-        <a className="w-[370px] h-[80px] bg-[url('./public/bn26.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <a className="w-[370px] h-[80px] bg-[url('bn26.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
         <div className="flex justify-center items-center gap-[219px]">
           <h3 className="text-[25px] text-white font-semibold font-worksans">
             Sports
@@ -1254,7 +1254,7 @@ police investigation
             </div>
         </div>
         </a>
-        <div className="mt-[40px] w-[370px] h-[570px] bg-[url('./public/ad4.jpg')] bg-cover bg-center overflow-hidden relative">
+        <div className="mt-[40px] w-[370px] h-[570px] bg-[url('ad4.jpg')] bg-cover bg-center overflow-hidden relative">
           <div className="w-[202px] h-[202px] bg-[#E12127] absolute bottom-[468px] rounded-full right-[187px]"></div>
             <h3 className="absolute top-[21px] left-[20px] text-[19px] text-white font-medium font-worksans">New Collection</h3>
             <h3 className="absolute top-[126px] left-[23px] text-[17px] font-medium font-worksans text-[#FF005C]">
@@ -1282,7 +1282,7 @@ police investigation
       </div>
       {/* more news */}
       {/* footer */}
-      <footer className="w-full h-[766px] mt-[70px] relative bg-cover bg-[url('./public/footer.png')]">
+      <footer className="w-full h-[766px] mt-[70px] relative bg-cover bg-[url('footer.png')]">
      <div className="absolute inset-0 bg-[#000D39] bg-opacity-90 pointer-events-none"></div>
      <div className="relative z-10">
      <h3 className="text-center text-white text-[35px] font-semibold font-worksans pt-[56px]">Subscribe For Newsletter</h3>
