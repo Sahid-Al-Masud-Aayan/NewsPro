@@ -1,4 +1,4 @@
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
@@ -14,6 +14,7 @@ import { BiSolidLike } from "react-icons/bi";
 import { IoIosShareAlt } from "react-icons/io";
 import { RiMenuAddFill } from "react-icons/ri";
 import { SlOptions } from "react-icons/sl";
+import { SiMinutemailer } from "react-icons/si";
 
 import './App.css'
 
@@ -100,7 +101,7 @@ function App() {
 
     {/* menu links */}
     <div className="w-full h-[80px] bg-[#E5E9F6] flex justify-center items-center">
-    <div className=" flex justify-center items-center gap-5">
+    <div className=" flex justify-center items-center gap-[44px]">
       <a className="text-[17px] font-semibold text-[#000d39] hover:text-[#e12127]  duration-200 font-worksans" href="#">
         Home+
       </a>
@@ -380,7 +381,7 @@ function App() {
         </div>
       <div className="flex flex-col justify-center items-center">
       {/* sub menu */}
-      <nav className="flex justify-center items-center gap-14 w-[770px] h-[50px] bg-[#E5E9F6] rounded-[3px] mb-[35px] mt-[70px]">
+      <nav className="flex justify-center items-center gap-14 w-[770px] h-[50px] bg-[#E5E9F6] ml-[-11px] rounded-[3px] mb-[35px] mt-[70px]">
       <a className="text-[17px] font-semibold text-[#000d39] hover:text-[#e12127]  duration-200 font-worksans" href="#">
         All
       </a>
@@ -401,7 +402,7 @@ function App() {
       </a>
       </nav>
       {/* sub menu */}
-      <div className="flex justify-center items-start gap-[30px]">
+      <div className="flex justify-center items-center gap-[30px]">
       <div className="flex flex-col justify-center items-start">
       {/* first news column */}
       <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[170px] w-[270px] bg-[url('./public/bn7.jpg')] bg-cover bg-center p-[20px] group rounded-[3px] mb-[23px]">
@@ -854,6 +855,565 @@ police investigation
       </div>
     </div>
     {/* videos */}
+   {/* Ad */}
+   <div className="flex justify-center items-center mt-[70px]">
+          <div className="h-[130px] w-[770px] bg-[url('./public/ad3.jpg')] flex justify-center items-center bg-cover bg-center rounded-[3px] relative">
+                <RxCross2 className="absolute top-[10px] right-[10px] text-white opacity-[50%] hover:opacity-[100%]"/>
+                <GrCircleInformation className="absolute top-[10px] right-[36px] text-white opacity-[50%] hover:opacity-[100%]"/>
+      <h1 className='flex justify-center items-center font-black gap-[10px] text-[29px] relative text-white font-worksans'>
+        MegaMM
+      </h1>
+      <h1 className='flex justify-center items-center gap-[10px] text-[28px] ml-[47px] mr-[227px] font-semibold relative text-white font-worksans'>
+      Get 35% Off <br />
+      Limited Offer
+      </h1>
+      <button className='w-[118px] h-[40px] bg-[#E12127] hover:bg-red-900 rounded-[3px] font-semibold text-white text-[15px] font-worksans hover:text-black duration-150 '>
+        Shop now
+      </button>
+      </div>
+   </div>
+      {/* Ad */}
+      {/* covid 19 */}
+      <div className="flex justify-center items-start gap-[6px]">
+      <div className="main">
+      <div className="flex justify-center items-center gap-[10px] mt-[57px] mb-[21px]">
+      <h3 className="text-[25px] font-semibold font-worksans text-[#000D39] ">
+      Covid-19 News
+        </h3>
+        <div className="w-[602px] h-[1px] bg-[#CFD4E4]"></div>
+      </div>
+      <div className="flex gap-[30px] justify-start items-center">
+        <img className="w-[320px] h-[276px] rounded-[3px]" src="bn14.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white bg-[#5200FF] rounded-[3px] mb-[21px]">
+           Covid-19
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[13px] font-medium font-worksans text-[#555555] mb-[13px]">
+            <IoMdTime className="text-[24px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[19px] font-semibold font-worksans text-[#000D39] mb-[12px] hover:underline ">
+          COVID-19 Updates: Key Developments and <br /> Impact for July 2021
+        </a>
+        <p className="text-[15px] font-normal font-worksans text-[#555555]">
+        Stay informed with the latest statistics, vaccine <br /> rollout progress, and public health measures as <br /> we navigate the ongoing pandemic.
+        </p>
+        </div>
+      </div>
+      <div className="flex justify-start items-center gap-[54px]">
+      <div className="flex w-[346px] h-[130px] gap-[30px] justify-center items-center mt-[30px]">
+        <img className="w-[130px] h-[130px] rounded-[3px]" src="bn15.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] font-semibold font-worksan text-[#5200FF] rounded-[3px] mb-[11px] hover:underline">
+           Covid-19
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[13px] font-medium font-worksans text-[#555555] mb-[4px]">
+            <IoMdTime className="text-[18px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[15px] font-semibold font-worksans text-[#000D39] hover:underline ">
+          Bangladesh reports record of
+          Covid-19 deaths
+        </a>
+        </div>
+      </div>
+      <div className="flex w-[346px] h-[130px] gap-[30px] justify-center items-center mt-[30px]">
+        <img className="w-[130px] h-[130px] rounded-[3px]" src="bn16.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] font-semibold font-worksan text-[#FF005C] rounded-[3px] mb-[11px] hover:underline">
+           Covid-19
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[13px] font-medium font-worksans text-[#555555] mb-[4px]">
+            <IoMdTime className="text-[18px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[15px] font-semibold font-worksans text-[#000D39] hover:underline ">
+          Bangladesh Faces Alarming Surge in COVID-19 Cases
+        </a>
+        </div>
+      </div>
+      </div>
+
+      <div className="flex justify-start items-center gap-[54px]">
+      <div className="flex w-[346px] h-[130px] gap-[30px] justify-center items-center mt-[30px]">
+        <img className="w-[130px] h-[130px] rounded-[3px]" src="bn17.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] font-semibold font-worksan text-[#E12127] rounded-[3px] mb-[11px] hover:underline">
+           Covid-19
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[13px] font-medium font-worksans text-[#555555] mb-[4px]">
+            <IoMdTime className="text-[18px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[15px] font-semibold font-worksans text-[#000D39] hover:underline ">
+         India Faces Severe COVID-19 Crisis 
+        </a>
+        </div>
+      </div>
+      <div className="flex w-[346px] h-[130px] gap-[30px] justify-center items-center mt-[30px]">
+        <img className="w-[130px] h-[130px] rounded-[3px]" src="bn18.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] font-semibold font-worksan text-[#07B404] rounded-[3px] mb-[11px] hover:underline">
+           Covid-19
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[13px] font-medium font-worksans text-[#555555] mb-[4px]">
+            <IoMdTime className="text-[18px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[15px] font-semibold font-worksans text-[#000D39] hover:underline ">
+          India's COVID-19 Death Toll Soars Amid Worsening Health Crisis
+        </a>
+        </div>
+      </div>
+      </div>
+
+      <div className="flex justify-start items-center gap-[54px]">
+      <div className="flex w-[346px] h-[130px] gap-[30px] justify-center items-center mt-[30px]">
+        <img className="w-[130px] h-[130px] rounded-[3px]" src="bn19.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] font-semibold font-worksan text-[#0085FF] rounded-[3px] mb-[11px] hover:underline">
+           Covid-19
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[13px] font-medium font-worksans text-[#555555] mb-[4px]">
+            <IoMdTime className="text-[18px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[15px] font-semibold font-worksans text-[#000D39] hover:underline ">
+         US Coronavirus death toll suprassses 80,000+
+        </a>
+        </div>
+      </div>
+      <div className="flex w-[346px] h-[130px] gap-[30px] justify-center items-center mt-[30px]">
+        <img className="w-[130px] h-[130px] rounded-[3px]" src="bn20.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] font-semibold font-worksan text-[#F85E07] rounded-[3px] mb-[11px] hover:underline">
+           Covid-19
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[13px] font-medium font-worksans text-[#555555] mb-[4px]">
+            <IoMdTime className="text-[18px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[15px] font-semibold font-worksans text-[#000D39] hover:underline ">
+          Pakistan reports death of 3rd doctor from coronavirus
+        </a>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div className="">
+      <div className="flex justify-center items-center gap-[10px] mt-[57px] mb-[21px]">
+      <h3 className="text-[25px] font-semibold font-worksans text-[#000D39] ">
+      Follow us
+        </h3>
+        <div className="w-[242px] h-[1px] bg-[#CFD4E4]"></div>
+      </div>
+      <div className="flex flex-col justify-center items-center gap-[10px]">
+        <img src="1.svg" alt="Socilas" />
+        <img src="2.svg" alt="Socilas" />
+        <img src="3.svg" alt="Socilas" />
+        <img src="4.svg" alt="Socilas" />
+        <img src="5.svg" alt="Socilas" />
+        <div className="w-[370px] h-[386px] bg-[#F9F9F9] mt-[20px] rounded-[3px] flex flex-col justify-center items-center">
+          <img className="h-[60px] w-[60px] rounded-full mb-[18px]" src="mail.png" alt="Logo" />
+
+          <h3 className="text-[25px] font-semibold font-worksans text-[#000D39] text-center">
+          Subscribe To Our 
+          Weekly Newsletter
+        </h3>
+
+            <p className="text-[15px] font-normal font-worksans text-[#555555] text-center mt-[10px]">
+        Stay informed with the latest news and information from all over the world
+        </p>
+        <input className="w-[310px] h-[40px] rounded-[3px] outline-none border-[1px] border-[#CFD4E4] bg-transparent mt-[17px] placeholder:text-center " type="email" placeholder="Enter Email Address"/>
+        <button className="w-[140px] h-[40px] text-white rounded-[3px] bg-[#E12127] font-semibold font-worksans mt-[16px] hover:bg-transparent hover:border-[#E12127] hover:shadow-xl duration-150 hover:text-black hover:border-[1px]" type="submit">
+          Subscribe
+          </button>
+        </div>
+      </div>
+      </div>
+      </div>
+      {/* covid 19 */}
+      {/* editors choices */}
+      <div className="w-full h-[554px] bg-[#F9FAFF] mt-[70px] mb-[58px]">
+      <div className="flex justify-center items-center gap-[13px] pt-[57px] pb-[21px]">
+      <p className="text-[25px] font-semibold font-worksans text-[#000D39] ">
+        Editor's Choice
+        </p>
+        <div className="w-[882px] h-[1px] bg-[#CFD4E4]"></div>
+        <img src="./public/slider3.svg" alt="Slider" />
+      </div>
+      <div className="flex justify-center items-center gap-[30px]">
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('./public/bn21.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+
+         <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white mt-[210px] mb-[21px] bg-[#E12127] rounded-[3px]">
+           Fashion
+          </div>
+           <p className="flex justify-start items-center gap-[7px] text-[17px] font-medium font-worksans text-white mb-[4px] ">
+            <IoMdTime className="text-[18px]"/>
+            July 02, 2021
+          </p>
+          <p className="text-[18px] font-semibold font-worksans text-white group-hover:underline">
+          Scent of to her to eye feedback.
+          Perfected for class
+         </p>
+          </a>
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('./public/bn22.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+
+         <div className="flex justify-center items-center text-[15px] h-[30px] w-[100px] font-semibold font-worksans text-white mt-[210px] mb-[21px] bg-[#10CFFA] rounded-[3px]">
+           Technology
+          </div>
+           <p className="flex justify-start items-center gap-[7px] text-[17px] font-medium font-worksans text-white mb-[4px] ">
+            <IoMdTime className="text-[18px]"/>
+            July 02, 2021
+          </p>
+          <p className="text-[18px] font-semibold font-worksans text-white group-hover:underline">
+          Why the Internet Is Vulnerable to
+          Outages
+         </p>
+          </a>
+      <a href='#' className="cursor-pointer hover:shadow-xl duration-200 h-[370px] w-[370px] bg-[url('./public/bn23.jpg')] bg-cover bg-center p-[20px] group rounded-[3px]">
+
+         <div className="flex justify-center items-center text-[15px] h-[30px] w-[70px] font-semibold font-worksans text-white mt-[210px] mb-[21px] bg-[#5200FF] rounded-[3px]">
+           Travel
+          </div>
+           <p className="flex justify-start items-center gap-[7px] text-[17px] font-medium font-worksans text-white mb-[4px] ">
+            <IoMdTime className="text-[18px]"/>
+            July 02, 2021
+          </p>
+          <p className="text-[18px] font-semibold font-worksans text-white group-hover:underline">
+          Quarantine-free travel to resume on
+          19 July for fully vaccinated
+         </p>
+          </a>
+      </div>
+      </div>
+      {/* editors choices */}
+      {/* more news */}
+      <div className="flex justify-center items-start gap-[30px]">
+      <div className="main">
+      <div className="flex justify-center items-center gap-[10px] mb-[19px]">
+      <h3 className="text-[25px] font-semibold font-worksans text-[#000D39] ">
+        More News
+        </h3>
+        <div className="w-[619px] h-[1px] bg-[#CFD4E4]"></div>
+      </div>
+      <div className="flex flex-col gap-[30px] justify-center items-center">
+      <div className="w-[741px] h-[230px] flex gap-[30px] justify-start items-center">
+        <img className="w-[320px] h-[230px] rounded-[3px]" src="bn1.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white bg-[#E12127] rounded-[3px] mb-[21px] mt-[14px]">
+           Fashion
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[17px] font-medium font-worksans text-[#555555] mb-[13px]">
+            <IoMdTime className="text-[24px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[18px] font-semibold font-worksans text-[#000D39] mb-[12px] hover:underline ">
+          Hedonism and Tailoring: The Women’s <br />
+          Spring 2021 Collections Had It All
+        </a>
+        <p className="text-[15px] font-normal font-worksans text-[#555555]">
+        Hendoism Renaissance 2021 as Designers Make Bold Comebacks
+        </p>
+        </div>
+      </div>
+      <div className="w-[741px] h-[230px] flex gap-[30px] justify-start items-center">
+        <img className="w-[320px] h-[230px] rounded-[3px]" src="bn4.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] h-[30px] w-[80px] font-semibold font-worksans text-white bg-[#FF005C] rounded-[3px] mb-[21px] mt-[14px]">
+        Lifestyle
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[17px] font-medium font-worksans text-[#555555] mb-[13px]">
+            <IoMdTime className="text-[24px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[18px] font-semibold font-worksans text-[#000D39] mb-[12px] hover:underline ">
+          Lifestyle brings big changes in people's <br />
+          lives. Are you ready?
+        </a>
+        <p className="text-[15px] font-normal font-worksans text-[#555555]">
+        Explore the newest trends in health, fashion, travel, food, and design
+        </p>
+        </div>
+      </div>
+      <div className="w-[741px] h-[230px] flex gap-[30px] justify-start items-center">
+        <img className="w-[320px] h-[230px] rounded-[3px]" src="bn3.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] h-[30px] w-[70px] font-semibold font-worksans text-white bg-[#5200FF] rounded-[3px] mb-[21px] mt-[14px]">
+        Travel
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[17px] font-medium font-worksans text-[#555555] mb-[13px]">
+            <IoMdTime className="text-[24px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[18px] font-semibold font-worksans text-[#000D39] mb-[12px] hover:underline ">
+          City of New York on a trip to Arctic <br />
+          Nunavut
+        </a>
+        <p className="text-[15px] font-normal font-worksans text-[#555555]">
+        City of New York Embarks on an Exciting Trip to the Arctic's Remote Nunavut Region
+        </p>
+        </div>
+      </div>
+      <div className="w-[741px] h-[230px] flex gap-[30px] justify-start items-center">
+        <img className="w-[320px] h-[230px] rounded-[3px]" src="bn25.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] h-[30px] w-[100px] font-semibold font-worksans text-white bg-[#10CFFA] rounded-[3px] mb-[21px] mt-[14px]">
+        Technology
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[17px] font-medium font-worksans text-[#555555] mb-[13px]">
+            <IoMdTime className="text-[24px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[18px] font-semibold font-worksans text-[#000D39] mb-[12px] hover:underline ">
+          Apple partnership with Microsoft helps <br />
+          them both take on
+        </a>
+        <p className="text-[15px] font-normal font-worksans text-[#555555]">
+        Apple and Microsoft Forge Partnership to Strengthen Their Positions 
+        </p>
+        </div>
+      </div>
+      <div className="w-[741px] h-[230px] flex gap-[30px] justify-start items-center">
+        <img className="w-[320px] h-[230px] rounded-[3px]" src="bn26.jpg" alt="News Image" />
+        <div className="flex flex-col justify-center items-start">
+        <div className="flex justify-center items-center text-[15px] h-[30px] w-[70px] font-semibold font-worksans text-white bg-[#07B404] rounded-[3px] mb-[21px] mt-[14px]">
+        Sports
+         </div>
+        <p className="flex justify-center items-center gap-[7px] text-[17px] font-medium font-worksans text-[#555555] mb-[13px]">
+            <IoMdTime className="text-[24px] text-[#000D39]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className="text-[18px] font-semibold font-worksans text-[#000D39] mb-[12px] hover:underline ">
+          Can Coco Do It Again? Everything You Need 
+          <br /> to Know About This Year’s US Open
+        </a>
+        <p className="text-[15px] font-normal font-worksans text-[#555555]">
+        Regardless of who wins, though, there are some matches that are every bit worth your while
+        </p>
+        </div>
+      </div>
+      <img className="mt-[20px]" src="Button.svg" alt="" />
+      </div>
+      </div>
+      <div className="main2">
+      <div className="flex justify-center items-center gap-[10px] mb-[19px]">
+      <h3 className="text-[25px] font-semibold font-worksans text-[#000D39] ">
+        More News
+        </h3>
+        <div className="w-[230px] h-[1px] bg-[#CFD4E4]"></div>
+      </div>
+      <div className="flex flex-col justify-center items-center gap-[10px]">
+        <a className="w-[370px] h-[80px] bg-[url('./public/bn5.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <div className="flex justify-center items-center gap-[161px]">
+          <h3 className="text-[25px] text-white font-semibold font-worksans">
+            Technology
+            </h3>
+            <div className="h-[30px] w-[30px] rounded-full text-[25px] flex justify-center items-center text-white font-semibold font-worksans bg-[#10CFFA]">
+              5
+            </div>
+        </div>
+        </a>
+        <a className="w-[370px] h-[80px] bg-[url('./public/bn8.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <div className="flex justify-center items-center gap-[205px]">
+          <h3 className="text-[25px] text-white font-semibold font-worksans">
+            Fashion
+            </h3>
+            <div className="h-[30px] w-[30px] rounded-full text-[25px] flex justify-center items-center text-white font-semibold font-worksans bg-[#E12127]">
+              8
+            </div>
+        </div>
+        </a>
+        <a className="w-[370px] h-[80px] bg-[url('./public/bn3.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <div className="flex justify-center items-center gap-[225px]">
+          <h3 className="text-[25px] text-white font-semibold font-worksans">
+            Travel
+            </h3>
+            <div className="h-[30px] w-[30px] rounded-full text-[25px] flex justify-center items-center text-white font-semibold font-worksans bg-[#5200FF]">
+              6
+            </div>
+        </div>
+        </a>
+        <a className="w-[370px] h-[80px] bg-[url('./public/bn4.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <div className="flex justify-center items-center gap-[193px]">
+          <h3 className="text-[25px] text-white font-semibold font-worksans">
+            Lifestyle
+            </h3>
+            <div className="h-[30px] w-[30px] rounded-full text-[25px] flex justify-center items-center text-white font-semibold font-worksans bg-[#FF005C]">
+              9
+            </div>
+        </div>
+        </a>
+        <a className="w-[370px] h-[80px] bg-[url('./public/bn26.jpg')] bg-cover bg-center flex justify-center items-center rounded-[3px]" href="#">
+        <div className="flex justify-center items-center gap-[219px]">
+          <h3 className="text-[25px] text-white font-semibold font-worksans">
+            Sports
+            </h3>
+            <div className="h-[30px] w-[30px] rounded-full text-[25px] flex justify-center items-center text-white font-semibold font-worksans bg-[#07B404]">
+              7
+            </div>
+        </div>
+        </a>
+        <div className="mt-[40px] w-[370px] h-[570px] bg-[url('./public/ad4.jpg')] bg-cover bg-center overflow-hidden relative">
+          <div className="w-[202px] h-[202px] bg-[#E12127] absolute bottom-[468px] rounded-full right-[187px]"></div>
+            <h3 className="absolute top-[21px] left-[20px] text-[19px] text-white font-medium font-worksans">New Collection</h3>
+            <h3 className="absolute top-[126px] left-[23px] text-[17px] font-medium font-worksans text-[#FF005C]">
+            SPECIAL OFFER
+            </h3>
+            <h3 className="absolute top-[151px] left-[23px] text-[70px] font-bold font-worksans text-[#ffffff]">
+            Big Sale
+            </h3>
+            <button className="absolute top-[491px] right-[20px] w-[114px] h-[40px] text-white rounded-[3px] bg-[#E12127] font-semibold font-worksans mt-[16px] hover:bg-transparent hover:border-[#E12127] hover:shadow-xl duration-150 hover:text-black hover:border-[1px]" type="submit">
+          Shop Now
+          </button>
+          <div className="w-[202px] h-[202px] bg-[#E12127] absolute top-[440px] rounded-full right-[195px]"></div>
+          <div className="absolute flex  left-[29px] top-[486px]">
+            <h1 className="text-[50px] text-white font-bold font-worksans">
+              35
+            </h1>
+            <div className="">
+              <h2 className="text-[30px] text-white font-medium font-worksans absolute top-[8px]">%</h2>
+              <h2 className="text-[15px] text-white font-medium font-worksans absolute top-[40px]">OFF</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      {/* more news */}
+      {/* footer */}
+      <footer className="w-full h-[766px] mt-[70px] relative bg-cover bg-[url('./public/footer.png')]">
+     <div className="absolute inset-0 bg-[#000D39] bg-opacity-90 pointer-events-none"></div>
+     <div className="relative z-10">
+     <h3 className="text-center text-white text-[35px] font-semibold font-worksans pt-[56px]">Subscribe For Newsletter</h3>
+     <h3 className="text-center text-white text-[17px] font-normal font-worksans pt-[10px]">Subscribe to our newsletter to receive the latest updates, 
+       news, and exclusive offers <br/>  directly in your inbox and stay informed about everything</h3>
+       <div className="flex flex-col justify-center items-center gap-[70px]">
+       <div className="flex justify-center items-center mt-8">
+        <input className="w-[528px] h-[60px] rounded-l-[3px] outline-none pl-[30px] font-worksans" type="email" placeholder="Enter your email" />
+        <button className="w-[80px] h-[60px] bg-[#E12127] hover:bg-red-900 duration-100 flex justify-center items-center rounded-[3px]" type="submit">
+          <SiMinutemailer className="text-[40px] text-white"/>
+        </button>
+       </div>
+       <div className="w-[1170px] h-[1px] bg-opacity-[20%] bg-white mb-[65px]"></div>
+       </div>
+       <div className="flex justify-center items-center">
+        <div className="w-[270px] h-[286px]">
+          <img className="mb-[42px]" src="Logo2.svg" alt="Logo" />
+          <h3 className=" text-white text-[17px] font-normal font-worksans">NewsPro, the best and the most <br /> popular news platform since 2006 in
+          the country.</h3>
+          <div className="mt-[33px] flex justify-start items-center gap-[10px]">
+            <a className="w-[40px] h-[40px] bg-white bg-opacity-30 rounded-full hover:bg-opacity-100 duration-200 flex justify-center items-center group" href="#">
+              <FaFacebookF className="text-[24px] text-white group-hover:text-[#000D39]"/>
+            </a>
+            <a className="w-[40px] h-[40px] bg-white bg-opacity-30 rounded-full hover:bg-opacity-100 duration-200 flex justify-center items-center group" href="#">
+              <FaTwitter className="text-[24px] text-white group-hover:text-[#000D39]"/>
+            </a>
+            <a className="w-[40px] h-[40px] bg-white bg-opacity-30 rounded-full hover:bg-opacity-100 duration-200 flex justify-center items-center group" href="#">
+              <FaInstagram className="text-[24px] text-white group-hover:text-[#000D39]"/>
+            </a>
+            <a className="w-[40px] h-[40px] bg-white bg-opacity-30 rounded-full hover:bg-opacity-100 duration-200 flex justify-center items-center group" href="#">
+              <FaYoutube className="text-[24px] text-white group-hover:text-[#000D39]"/>
+            </a>
+          </div>
+        </div>
+        <div className="w-[187px] h-[286px] ml-[70px]">
+          <h2 className="text-white text-[25px] font-semibold font-worksans mb-[27px]">
+            Useful Links
+          </h2>
+          <div className="flex flex-col gap-[6px]">
+          <a href="#" className="w-[95px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Contact Us
+          </a>
+          <a href="#" className="w-[80px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          About Us
+          </a>
+          <a href="#" className="w-[180px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Fox Around the World
+          </a>
+          <a href="#" className="w-[150px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Advertise With Us
+          </a>
+          <a href="#" className="w-[93px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Ad Choices
+          </a>
+          <a href="#" className="w-[137px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Media Relations
+          </a>
+          <a href="#" className="w-[100px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Compliance
+          </a>
+          </div>
+        </div>
+        <div className="w-[182px] h-[286px] ml-[74px]">
+          <h2 className="text-white text-[25px] font-semibold font-worksans mb-[27px]">
+            Top Categories
+          </h2>
+          <div className="flex flex-col gap-[6px]">
+          <a href="#" className="w-[6px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Fashion
+          </a>
+          <a href="#" className="w-[6px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Technology
+          </a>
+          <a href="#" className="w-[6px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Lifestyle
+          </a>
+          <a href="#" className="w-[6px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Travel
+          </a>
+          <a href="#" className="w-[6px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Sports
+          </a>
+          <a href="#" className="w-[6px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          World
+          </a>
+          <a href="#" className="w-[6px] text-white text-[17px] font-normal font-worksans mb-[4px] hover:text-[#E12127] duration-150">
+          Health
+          </a>
+          </div>
+        </div>
+        <div className="w-[270px] h-[286px] ml-[100px]">
+          <h2 className="text-white text-[25px] font-semibold font-worksans mb-[27px]">
+            Latest News
+          </h2>
+          <div className="flex flex-col gap-[32px]">
+            <div className="flex justify-start items-center gap-[10px] w-[287px] h-[100px]">
+              <img className="w-[100px] h-[100px] rounded-[3px]" src="bn1.jpg" alt="News" />
+              <div className="flex flex-col">
+                <p className="text-[15px] font-normal font-worksans text-[#FF005C] hover:underline">
+                Fashion
+                </p>
+                <p className="flex justify-start items-start gap-[7px] text-[13px] font-medium font-worksans text-[#ffffff]">
+            <IoMdTime className="text-[18px] text-[#ffffff]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className=" text-[17px] font-semibold font-worksans text-[#ffffff] hover:underline">
+            The Spring 2021 collection had it all
+          </a>
+              </div>
+            </div>
+            <div className="flex justify-start items-center gap-[10px] w-[287px] h-[100px]">
+              <img className="w-[100px] h-[100px] rounded-[3px]" src="bn6.jpg" alt="News" />
+              <div className="flex flex-col">
+                <p className="text-[15px] font-normal font-worksans text-[#E12127] hover:underline">
+                Lifestyle
+                </p>
+                <p className="flex justify-start items-start gap-[7px] text-[13px] font-medium font-worksans text-[#ffffff]">
+            <IoMdTime className="text-[18px] text-[#ffffff]"/>
+            July 02, 2021
+          </p>
+          <a href="#" className=" text-[17px] font-semibold font-worksans text-[#ffffff] hover:underline">
+            The Best tips for buying books 
+          </a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
+</footer>
+      {/* footer */}
 
     </>
   )
