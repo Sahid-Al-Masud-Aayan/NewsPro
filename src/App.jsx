@@ -1282,7 +1282,7 @@ police investigation
       </div>
       {/* more news */}
       {/* footer */}
-      <footer className="w-full h-[766px] mt-[70px] relative bg-cover bg-[url('footer.png')]">
+      <footer className="w-full h-[836px] mt-[70px] relative bg-cover bg-[url('footer.png')]">
      <div className="absolute inset-0 bg-[#000D39] bg-opacity-90 pointer-events-none"></div>
      <div className="relative z-10">
      <h3 className="text-center text-white text-[35px] font-semibold font-worksans pt-[56px]">Subscribe For Newsletter</h3>
@@ -1410,6 +1410,9 @@ police investigation
             </div>
           </div>
         </div>
+       </div>
+       <div className="absolute w-full h-[70px] bg-white bg-opacity-20 top-[766px] flex justify-center items-center">
+        <p className="text-[17px] font-normal text-white font-worksans">Copyright 2021. All Right Reserved</p>
        </div>
      </div>
 </footer>
